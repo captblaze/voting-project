@@ -1,9 +1,31 @@
 body{
-    background-color: ;
+    background-color:grey;
     color: gainsboro;
+}
+h1{
+    text-decoration: inherit;
+    text-align: center;
+    color: darkgreen;
+}
+a{
+    color:darkgreen;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+nav{
+    width: 100%;
+    padding-top: 1px;
+    height: 80px;
 }
 .container{
     width: 100%;
-    border-style:groove;
-    color: gold;
+    border-style: solid;
+    border-radius: 50px;
+    height: 250px;
+}
+ul{
+    text-align: inherit;
+    padding-right: 30px;
+
 }
