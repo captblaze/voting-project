@@ -1,14 +1,28 @@
+//business logic
+
+
+
+
+
+
+
+//userInterface 
 $(document).ready(function(){
-let age= ("#age").val()
+    $(".button").click(function(){
+        $("#form").toggle();
+    })
 
-  if (age < 18) {
-    alert (`please visit ${info.html}`)
-  } 
-  else if (time < 20) {
-   alert("Good day");
-  } 
-  else {
-    greeting = "Good evening";
-  }
+$("#form").submit(function(event){
+event.preventDefault();
+const age = parseInt($("#age").val())
+    if (age < 18) {
+        console.log("i am a man")
+        window.location.href="info.html"
+        die();
+    } else {
+        window.location.href="voting.html" ;
+    
 
-})
+    }
+});
+});
