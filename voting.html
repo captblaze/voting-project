@@ -8,29 +8,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VOTING PORTAL</title>
+    <title>INEC</title>
 </head>
 <body >
     <div class="container">
-    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
-        <img src="pics/Flag-Nigeria.jpg" alt="Nigeria's flag" style="width: 10%;height: 10%; margin-left: 2%; margin-top: 5%; border-radius: 20px;"><br>
-        <ul class="navbar-nav" style="text-align: right;">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">HOME</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="inec.html">INEC</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="voting.html">VOTING PAGE</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="info.html">INFO</a>
-            </li>
-            
-          </ul>
-    </nav>
+        <img src="pics/Flag-Nigeria.jpg" alt="logo" style="width: 10%;height: 10%; margin-left: 2%; border-radius: 20px; display: float;">
+        <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+                   <button style="color: green;"> <a class="nav-link" href="index.html">HOME</a></button>
+                   <button> <a class="nav-link" href="inec.html">INEC</a></button>
+                   <button> <a class="nav-link" href="info.html">INFO</a></button>
+                   <button> <a class="nav-link" href="voting.html">VOTING</a></button>
+                   
+        </nav><br>
+        
 </div>
-    
+ <!--This is the personal details form section-->
+ <div class="container">
+ <form autocomplete="on">
+    <fieldset>
+        <legend><strong>Personal Profile</strong> </legend>
+        <form autocomplete="on">
+          <fieldset>
+            <strong>
+              <label for="Firstname">Firstname :</label>
+              <input type="Firstname" class="form-control" placeholder="Enter Firstname" id="Firstname" required>
+              <label for="Lastname">Lastname:</label>
+              <input type="Lastname" class="form-control" placeholder="Enter Lastname" id="Lastname" required>
+              <label for="email">Email address:</label>
+              <input type="email" class="form-control" placeholder="Enter email" id="email" required>
+              <label for="Address">Address:</label>
+              <input type="Address" class="form-control" placeholder="Enter Your Address" id="Address" required>
+               <label for="phone">Phone number:</label>
+              <input type="phone" class="form-control" placeholder="Phone number" id="phone" required>
+              <div class="form-check">
+              <label class="form-check-label">
+              <input class="form-check-input" type="checkbox"> Remember me
+              </label>
+              </div><br>
+            </fieldset>
+</div>
+<div class="container"> 
+    <!--This is the Gender selection section -->
+ 
+ <fieldset>
+        <legend>Sex</legend> 
+            <input type="radio" name="Gender">
+            <label for="Male">Male</label><br>
+            <input type="radio" name="Gender">
+            <label for="Female">Female</label><br>
+</fieldset><br>
+</div>
+<div class="container">
+<fieldset>
+
+        <legend>Select Category</legend>
+            <label for="age"><h3>Select the Category</h3></label>
+            <select name="Category" id="Category" >
+                <option value=""></option>
+                <option value="Houseofreps">House of Representatives</option>
+                <option value="Houseofassemble">House of Assembly</option>
+                <option value="Governorship">Governorship</option>
+                <option value="Presidency">Presidency</option> <br>
+            </select><br><br>
+</fieldset>
+  
+</div>
+<div class="container">
+<button type="submit" class="btn btn-primary">Reset</button>
+            <input type="button" class="btn btn-success" name="Submit" value="Submit">
+</div>
 </body>
 </html>

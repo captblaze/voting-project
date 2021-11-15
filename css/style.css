@@ -1,31 +1,28 @@
 body{
-    background-color:grey;
+    background-color:black;
     color: gainsboro;
 }
 h1{
     text-decoration: inherit;
     text-align: center;
-    color: darkgreen;
+    color: rgb(205, 233, 205);
 }
-a{
-    color:darkgreen;
-    font-size: larger;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-nav{
-    width: 100%;
-    padding-top: 1px;
-    height: 80px;
+button{
+    border-radius: 10px;
 }
 .container{
-    width: 100%;
-    border-style: solid;
-    border-radius: 50px;
-    height: 250px;
+    border-radius: 30px;
+    border-style: groove;
+    padding: 10px;
+    background-color: rgb(21, 38, 54);
 }
-ul{
-    text-align: inherit;
-    padding-right: 30px;
-
+nav{
+    text-align: right;
+}
+#footer {
+    background-color:steelblue;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;    
 }
