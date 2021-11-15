@@ -1,8 +1,8 @@
-# Amusement ROYAL PARK / https://github.com/captblaze/Amusement
+# VOTING WEBSITE/ https://github.com/captblaze/voting-project.git
 
-## Amusement ROYAL PARK  / Synopsis
+## VOTING WEBSITE
 
-* This is an Amusement ROYAL PARK where failies can save contacts details.
+* This is aVOTING WEBSITE where CITIZENS can REGISTER TO VOTE AND ALSO VOTE.
 * Project status: Prototype
 * Visual Studio Code
 * Git
@@ -14,9 +14,9 @@
 
 ## Table of contents
 
-<https://github.com/captblaze/amusement.git>:
+< https://github.com/captblaze/voting-project.git>:
 
-> * Amusement ROYAL PARK/ captblaze/Amusement.git
+> * VOTING WEBSITE/ https://github.com/captblaze/voting-project.git
 >   * This is an app where you can save contact details and have the displayed easily at the bottom of the page
 ## TABLE OF CONTENT
 

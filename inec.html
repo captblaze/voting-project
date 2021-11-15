@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INEC</title>
 </head>
-<body >
+<body>
     <div class="container">
         <img src="pics/Flag-Nigeria.jpg" alt="logo" style="width: 10%;height: 10%; margin-left: 2%; border-radius: 20px; display: float;">
         <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
@@ -23,10 +23,11 @@
         
 </div>
  <!--This is the personal details form section-->
+ <h3 style="text-align: center; font-family: sans-serif;">REGISTRATION FORm</h3>
  
  <form autocomplete="on">
     <fieldset>
-        <legend><strong>Personal Profile</strong> </legend>
+        <legend style="text-align: center;"><strong>Personal Profile</strong> </legend>
         <form autocomplete="on">
           <fieldset>
             <strong>
@@ -40,12 +41,11 @@
               <input type="Address" class="form-control" placeholder="Enter Your Address" id="Address" required>
                <label for="phone">Phone number:</label>
               <input type="phone" class="form-control" placeholder="Phone number" id="phone" required>
-              <div class="form-check">
-              <label class="form-check-label">
-              <input class="form-check-input" type="checkbox"> Remember me
-              </label>
               </div><br>
+              <label for="age">Date of Birth:</label>
+              <input type="date" class="form-control">
             </fieldset>
+
         
     </fieldset><br>
  
@@ -65,16 +65,15 @@
             <label for="age"><h3>Select the Category</h3></label>
             <select name="Category" id="Category" >
                 <option value=""></option>
-                <option value="Houseofreps">House of Representatives</option>
-                <option value="Houseofassemble">House of Assembly</option>
-                <option value="Governorship">Governorship</option>
-                <option value="Presidency">Presidency</option> <br>
+                <option value=" new">First registration</option>
+                <option value="renewal">Renewal</option>
+                <option value="Immigrant">Immigrant</option>
             </select><br><br>
 </fieldset>
   
 </div>
-<button type="submit" class="btn btn-primary">Reset</button>
-            <input type="button" class="btn btn-success" name="Submit" value="Submit">
+<button type="submit" class="btn btn-primary">Register</button>
+            <input type="button" class="btn btn-success" name="Submit" value="Cancel">
     
 </body>
 </html>
